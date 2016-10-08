@@ -1,0 +1,36 @@
+﻿{
+  "name": "DotCore.Time",
+  "version": "1.0.0-*",
+  "title": "DotCore.Time",
+  "description": "C# time utility library (.Net Core).",
+  "copyright": "Copyright 2016",
+  "authors": [
+    "Harry Y"
+  ],
+
+  "packOptions": {
+    "summary": "C# time utility library for .Net Core.",
+    "tags": [
+      "DotNet Core",
+      "CSharp"
+    ],
+    "owners": [
+      "Harry Y"
+    ],
+    "releaseNotes": "Initial (public) release.",
+    "projectUrl": "https://github.com/harrywye/dottime",
+    "licenseUrl": "https://github.com/harrywye/dottime/blob/master/LICENSE",
+    "requireLicenseAcceptance": false
+  },
+
+  "dependencies": {
+    "DotCore.Core": "1.0.1",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.4": {
+      "imports": "dnxcore50"
+    }
+  }
+}
